@@ -34,8 +34,8 @@ public class Q1WeirdFunction {
 
     public static void main(String[] args) {
         int n = 5;
-        System.out.println("Recursive result for " + n + ": " + fRecursive(n));
-        System.out.println("Iterative result for " + n + ": " + fIterative(n));
+        System.out.println(fRecursive(n));
+        System.out.println(fIterative(n));
     }
 }
 
