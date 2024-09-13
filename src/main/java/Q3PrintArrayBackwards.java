@@ -11,7 +11,7 @@ public class Q3PrintArrayBackwards {
             return;
         }
     
-        System.out.println(array[i]);
+        System.out.print(array[i]);
         
         printRecursion(i - 1);
     }
